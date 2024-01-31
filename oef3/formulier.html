@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="formulier.css">
+</head>
+<body>
+    <form action="examen@web.com">
+        <fieldset>
+            <legend>Feedback lokalen</legend>
+                <label for="Lokaal">Lokaal</label>
+                <select name="Lokaal" id="lokaal">
+                    <option value="B051">B051: leslokaal</option>
+                    <option value="B052">B052: leslokaal</option>
+                    <option value="B053">B053: leslokaal</option>
+                    <option value="B343">B343: auditorium</option>
+                </select>
+            <br>
+            <label for="Datum">Datum</label>
+                <input type="date" id="Datum" name="datum" >
+            <br>
+            <span>Tevredenheid</span>
+                <label for="1">1</label>
+                <input type="radio" name="tevredenheid" id="1" value="1">
+                <label for="2">2</label>
+                <input type="radio" name="tevredenheid" id="2" value="2">
+                <label for="3">3</label>
+                <input type="radio" name="tevredenheid" id="3" value="3">
+                <label for="4">4</label>
+                <input type="radio" name="tevredenheid" id="4" value="4">
+            <br>
+            <label for="Opmerking">Opmerking</label><br>
+                <textarea id="Opmerking" name="Opmerking">
+                </textarea>
+            <br>
+            <input type="submit" value=" Verzenden"
+            name="submit" id="Verzenden">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+input[type="radio" i]{
+    background-color: grey;
+    margin-right: 12px;
+}
+
+form {
+    width: 320px;
+}
+
+span{
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+
+#lokaal{
+    background-color: lightgrey;
+    width: 179px;
+    margin-left: 50px;
+}
+#Datum{
+    margin-top: 8px;
+    width: 179px;
+    margin-left: 50px;
+}
+#Opmerking {
+    height: 5em;
+    width: 21em;
+}
+input[type="radio 1"]{
+    background-color: grey;
+}
+
+input#Verzenden{
+    width: 280px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
